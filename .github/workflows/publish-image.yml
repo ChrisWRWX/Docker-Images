@@ -18,8 +18,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ inputs.image_name }}
-  IMAGE_TAG: ${{ inputs.image_name }}
+  IMAGE_NAME: chriswrwx/${{ inputs.image_name }}
+  IMAGE_TAG: ${{ inputs.image_tag }}
 
 jobs:
   build:
